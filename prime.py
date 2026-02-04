@@ -1,3 +1,7 @@
+#prime number confeir
+#In python terminal put: from prime import is_prime
+#after write: "is_prime(number)"
+
 import math
 
 def is_prime(n):
@@ -6,3 +10,4 @@ def is_prime(n):
     for i in range(2,int(math.sqrt(n))+1):
         if n % i == 0:
             return False
+    return True
